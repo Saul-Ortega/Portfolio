@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="./output.css">
     <title>Saul-Ortega Portfolio</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
+<body class="bg-white">
+    <header class="bg-violet-600/60 backdrop-blur-xs sticky top-1.5 w-4xl h-16 mx-auto rounded-2xl flex items-center">
+        <nav class="w-full">
+            <ul class="flex flex-row justify-evenly text-lg">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -20,17 +20,19 @@
             </ul>
         </nav>
     </header>
-    <main id="inicio">
-        <div>
-            <p>Hola, soy Saúl</p>
-            <p>
-                Me encanta el desarrollo de software porque gracias a él se puede hacer realidad una idea.
-                Actualmente estoy cursando 2º de Grado Superior en Desarrollo de Aplicaciones Multiplataforma y estoy en búsqueda de una empresa para poder hacer las prácticas con posibilidades de contratación.
-            </p>
+    <main id="inicio" class="bg-[url(assets/home-background.svg)] rounded-3xl grid grid-cols-3 w-7xl h-130 mt-10 mx-auto">
+        <div class="col-span-2 flex flex-col justify-center items-center">
+            <div class="bg-yellow-200 w-3xl h-40 p-5 rounded-2xl">
+                <h3>Hola, soy Saúl</h3>
+                <p>
+                    Me encanta el desarrollo de software porque gracias a él se puede hacer realidad una idea.
+                    Actualmente estoy cursando 2º de Grado Superior en Desarrollo de Aplicaciones Multiplataforma y estoy en búsqueda de una empresa para poder hacer las prácticas con posibilidades de contratación.
+                </p>
+            </div>
         </div>
         <img src="" alt="Foto de perfil">
     </main>
-    <section id="experiencia">
+    <section id="experiencia" class="w-7xl mx-auto">
         <h2>Experiencia</h2>
         <ul>
             <li>
@@ -43,7 +45,7 @@
             </li>
         </ul>
     </section>
-    <section id="proyectos">
+    <section id="proyectos" class="w-7xl mx-auto">
         <h2>Proyectos</h2>
         <div>
             <h3>MatchesAPI</h3>
@@ -61,7 +63,7 @@
             <a href="https://github.com/Saul-Ortega/MatchesWEB" target="_blank">Repositorio</a>
         </div>
     </section>
-    <section id="habilidades">
+    <section id="habilidades" class="w-7xl mx-auto">
         <h2>Habilidades</h2>
         <ul>
             <li>
@@ -94,7 +96,7 @@
             </li>
         </ul>
     </section>
-    <section id="titulacion">
+    <section id="titulacion" class="w-7xl mx-auto">
         <h2>Titulación</h2>
         <div>
             <h3>CFGS Desarrollo de Aplicaciones Multiplataforma</h3>
@@ -109,7 +111,7 @@
             <time datetime="2020-09">Septiembre 2020</time> - <time datetime="2022-06">Junio 2022</time>
         </div>
     </section>
-    <section id="cursos">
+    <section id="cursos" class="w-7xl mx-auto">
         <h2>Cursos y Certificaciones</h2>
         <div>
             <h3>ReactiveX - RxJs: De cero hasta los detalles</h3>
@@ -133,7 +135,7 @@
             <a href="https://www.freecodecamp.org/certification/SaulOrtega/responsive-web-design" target="_blank">Link</a>
         </div>
     </section>
-    <footer id="contacto">
+    <footer id="contacto" class="w-7xl mx-auto">
         <h2>Contacto</h2>
     </footer>
 </body>
