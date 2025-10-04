@@ -1,52 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <title>Saul-Ortega Portfolio</title>
 </head>
-<body class="bg-white">
-    <header class="bg-violet-600/60 backdrop-blur-xs sticky top-1.5 w-4xl h-16 mx-auto rounded-2xl flex items-center">
+<body class="bg-white font-funnel">
+    <header class="bg-violet-600/60 border-black border-2 backdrop-blur-xs sticky top-1.5 w-4xl h-16 mx-auto rounded-2xl flex items-center z-1">
         <nav class="w-full">
             <ul class="flex flex-row justify-evenly text-lg">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#titulacion">Titulación</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#inicio" class="py-1 px-2">Inicio</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#experiencia" class="py-1 px-2">Experiencia</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#proyectos" class="py-1 px-2">Proyectos</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#habilidades" class="py-1 px-2">Habilidades</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#titulacion" class="py-1 px-2">Titulación</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#cursos" class="py-1 px-2">Cursos</a></li>
+                <li class="hover:bg-violet-600/60 rounded-full"><a href="#contacto" class="py-1 px-2">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main id="inicio" class="bg-[url(assets/home-background.svg)] rounded-3xl grid grid-cols-3 w-7xl h-130 mt-10 mx-auto">
-        <div class="col-span-2 flex flex-col justify-center items-center">
-            <div class="bg-yellow-200 w-3xl h-40 p-5 rounded-2xl">
+    <main id="inicio" class="bg-[url(assets/home-background.svg)] rounded-3xl w-7xl h-130 mt-10 mx-auto flex flex-col justify-center items-center">
+        <div class="bg-[#fdf6bf] w-4xl h-90 p-5 border-black border-2 grid grid-cols-3 rounded-2xl items-center">
+            <div class="col-span-2">
                 <h3>Hola, soy Saúl</h3>
                 <p>
                     Me encanta el desarrollo de software porque gracias a él se puede hacer realidad una idea.
                     Actualmente estoy cursando 2º de Grado Superior en Desarrollo de Aplicaciones Multiplataforma y estoy en búsqueda de una empresa para poder hacer las prácticas con posibilidades de contratación.
                 </p>
+                <div class="bg-[url(assets/home-background.svg)] bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mx-auto mt-10">
+                    <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank" class="hover:scale-125 duration-300 ease-in-out">
+                        <img src="assets/logos/LinkedIn.svg" alt="Logo de Linkedin" class="size-14">
+                    </a>
+                    <a href="https://github.com/Saul-Ortega" target="_blank" class="hover:scale-125 duration-300 ease-in-out">
+                        <img src="assets/logos/GitHub.svg" alt="Logo de Github" class="size-14">
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white border-black border-2 size-70 rounded-2xl mx-auto flex flex-col justify-center items-center">
+                <img src="assets/perfil.webp" alt="Foto de perfil" class="w-60">
+                <!--CAMBIAR POR UNA MEJOR FOTO-->
             </div>
         </div>
-        <img src="" alt="Foto de perfil">
     </main>
-    <section id="experiencia" class="w-7xl mx-auto">
-        <h2>Experiencia</h2>
-        <ul>
-            <li>
-                <h3>Inerza</h3>
-                <time datetime="2025-05-12">Mayo 2025</time> - <time datetime="2025-06-13">Junio 2025</time>
-                <p>
-                    Prácticas de 1º de CFGS Desarrollo de Aplicaciones Multiplataforma.
-                    Se realizó traspaso de datos de archivos pdf a txt para entregarlo a una Inteligencia Artificial para que desarrolle su propósito y ser más eficiente. 
-                </p>
+    <section id="experiencia" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Experiencia</h2>
+        <ul class="mt-5 w-3xl mx-auto relative border-l-black border-l-4">
+            <li class="">
+                <div class="bg-yellow-200 border-2 border-black absolute size-5 rounded-full -ml-3 mt-12"></div>
+                <div class="ml-20 bg-yellow-200/60">
+                    <h3>Inerza</h3>
+                    <time datetime="2025-05-12">Mayo 2025</time> - <time datetime="2025-06-13">Junio 2025</time>
+                    <p>
+                        Prácticas de 1º de CFGS Desarrollo de Aplicaciones Multiplataforma.
+                        Se realizó traspaso de datos de archivos pdf a txt para entregarlo a una Inteligencia Artificial para que desarrolle su propósito y ser más eficiente. 
+                    </p>
+                </div>
             </li>
         </ul>
     </section>
-    <section id="proyectos" class="w-7xl mx-auto">
-        <h2>Proyectos</h2>
+    <section id="proyectos" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Proyectos</h2>
         <div>
             <h3>MatchesAPI</h3>
             <p>API que sirve como intermediario entre mongodb y la página web, desarrollada con java y springboot.</p>
@@ -63,8 +77,8 @@
             <a href="https://github.com/Saul-Ortega/MatchesWEB" target="_blank">Repositorio</a>
         </div>
     </section>
-    <section id="habilidades" class="w-7xl mx-auto">
-        <h2>Habilidades</h2>
+    <section id="habilidades" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Habilidades</h2>
         <ul>
             <li>
                 <img src="assets/logos/HTML5.svg" alt="Logo de HTML5">
@@ -96,8 +110,8 @@
             </li>
         </ul>
     </section>
-    <section id="titulacion" class="w-7xl mx-auto">
-        <h2>Titulación</h2>
+    <section id="titulacion" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Titulación</h2>
         <div>
             <h3>CFGS Desarrollo de Aplicaciones Multiplataforma</h3>
             <time datetime="2024-09">Septiembre 2024</time> - <time datetime="2026-06">Junio 2026</time>
@@ -111,8 +125,8 @@
             <time datetime="2020-09">Septiembre 2020</time> - <time datetime="2022-06">Junio 2022</time>
         </div>
     </section>
-    <section id="cursos" class="w-7xl mx-auto">
-        <h2>Cursos y Certificaciones</h2>
+    <section id="cursos" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Cursos y Certificaciones</h2>
         <div>
             <h3>ReactiveX - RxJs: De cero hasta los detalles</h3>
             <div>9 horas</div>
@@ -135,8 +149,8 @@
             <a href="https://www.freecodecamp.org/certification/SaulOrtega/responsive-web-design" target="_blank">Link</a>
         </div>
     </section>
-    <footer id="contacto" class="w-7xl mx-auto">
-        <h2>Contacto</h2>
+    <footer id="contacto" class="w-7xl mt-15 mx-auto">
+        <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Contacto</h2>
     </footer>
 </body>
 </html>
