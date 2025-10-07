@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
+    <!--FAV ICON-->
     <title>Saul-Ortega Portfolio</title>
 </head>
-<body class="bg-white font-funnel">
+<body class="bg-white font-funnel selection:bg-violet-200 text-lg">
     <header class="bg-violet-600/60 border-black border-2 backdrop-blur-xs sticky top-1.5 w-4xl h-16 mx-auto rounded-2xl flex items-center z-1">
         <nav class="w-full">
             <ul class="flex flex-row justify-evenly text-lg">
@@ -22,18 +23,19 @@
     </header>
     <main id="inicio" class="bg-[url(assets/home-background.svg)] rounded-3xl w-7xl h-130 mt-10 mx-auto flex flex-col justify-center items-center">
         <div class="bg-[#fdf6bf] w-4xl h-90 p-5 border-black border-2 grid grid-cols-3 rounded-2xl items-center">
-            <div class="col-span-2">
-                <h3>Hola, soy Saúl</h3>
-                <p>
-                    Me encanta el desarrollo de software porque gracias a él se puede hacer realidad una idea.
-                    Actualmente estoy cursando 2º de Grado Superior en Desarrollo de Aplicaciones Multiplataforma y estoy en búsqueda de una empresa para poder hacer las prácticas con posibilidades de contratación.
-                </p>
-                <div class="bg-[url(assets/home-background.svg)] bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mx-auto mt-10">
-                    <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank" class="hover:scale-125 duration-300 ease-in-out">
-                        <img src="assets/logos/LinkedIn.svg" alt="Logo de Linkedin" class="size-14">
+            <div class="col-span-2 flex flex-col justify-center items-center">
+                <h3 class="bg-yellow-200 w-fit font-bold text-4xl rounded-2xl p-1 border-black border-2">Hola, soy Saúl</h3>
+                <div class="bg-white mt-4 border-2 border-black rounded-2xl p-2 mr-4 w-lg">
+                    <p>
+                        Disfruto del desarrollo de software porque convierte las <em class="bg-violet-200 p-1 rounded-2xl border-1 border-violet-700">ideas</em> en <em class="bg-violet-200 p-1 rounded-2xl border-1 border-violet-700">soluciones reales</em>.
+                    </p>
+                </div>
+                <div class="bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mt-4">
+                    <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                        <img src="assets/logos/LinkedIn.svg" alt="Logo de Linkedin" class="">
                     </a>
-                    <a href="https://github.com/Saul-Ortega" target="_blank" class="hover:scale-125 duration-300 ease-in-out">
-                        <img src="assets/logos/GitHub.svg" alt="Logo de Github" class="size-14">
+                    <a href="https://github.com/Saul-Ortega" target="_blank" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                        <img src="assets/logos/GitHub.svg" alt="Logo de Github" class="">
                     </a>
                 </div>
             </div>
@@ -47,110 +49,181 @@
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Experiencia</h2>
         <ul class="mt-5 w-3xl mx-auto relative border-l-black border-l-4">
             <li class="">
-                <div class="bg-yellow-200 border-2 border-black absolute size-5 rounded-full -ml-3 mt-12"></div>
-                <div class="ml-20 bg-yellow-200/60">
-                    <h3>Inerza</h3>
-                    <time datetime="2025-05-12">Mayo 2025</time> - <time datetime="2025-06-13">Junio 2025</time>
-                    <p>
-                        Prácticas de 1º de CFGS Desarrollo de Aplicaciones Multiplataforma.
-                        Se realizó traspaso de datos de archivos pdf a txt para entregarlo a una Inteligencia Artificial para que desarrolle su propósito y ser más eficiente. 
-                    </p>
+                <div class="bg-yellow-200 border-2 border-black absolute size-5 rounded-full -ml-3 mt-40 mb-40"></div>
+                <div class="ml-20 bg-yellow-200/60 w-fit p-6 border-black border-2 rounded-2xl">
+                    <h3 class="bg-yellow-200 w-fit font-bold text-2xl rounded-2xl p-1 border-black border-2">Inerza, S.A</h3>
+                    <div class="mt-3 w-fit bg-white border-2 border-black rounded-2xl p-2">
+                        <div class="bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">
+                            <time datetime="2025-05-12">Mayo 2025</time> - <time datetime="2025-06-13">Junio 2025</time>
+                        </div>
+                        <div class="mt-1">Las Palmas de Gran Canaria</div>
+                    </div>
+                    <div class="mt-3 bg-white border-2 border-black rounded-2xl p-2">
+                        <p>Prácticas de 1º de CFGS Desarrollo de Aplicaciones Multiplataforma.</p>
+                        <p>Se realizó la conversión de datos de archivos PDF a TXT para entregarlos a una Inteligencia Artificial, con el fin de facilitar su procesamiento y aumentar la eficiencia.</p>
+                    </div>
                 </div>
             </li>
         </ul>
     </section>
     <section id="proyectos" class="w-7xl mt-15 mx-auto">
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Proyectos</h2>
-        <div>
-            <h3>MatchesAPI</h3>
-            <p>API que sirve como intermediario entre mongodb y la página web, desarrollada con java y springboot.</p>
-            <a href="https://github.com/Saul-Ortega/MatchesAPI" target="_blank">Repositorio</a>
+        <div class="mt-5 bg-yellow-200/60 w-3xl p-6 border-2 border-black rounded-2xl mx-auto">
+            <h3 class="bg-yellow-200 w-fit font-bold text-2xl rounded-2xl p-1 border-black border-2">MatchesAPI</h3>
+            <p class="mt-3 bg-white w-fit p-2 border-black border-2 rounded-2xl">API desarrollada con Java y Spring Boot que actúa como intermediario entre la base de datos MongoDB y la aplicación web.</p>
+            <img src="assets/images/MatchesAPI-screenshot.png" alt="Captura de pantalla del proyecto MatchesAPI" class="mt-3 bg-white w-90 p-2 border-black border-2 rounded-2xl mx-auto">
+            <div class="mt-3 flex flex-row justify-evenly items-center p-2 bg-white w-fit h-20 border-black border-2 rounded-2xl mx-auto">
+                <a href="https://github.com/Saul-Ortega/MatchesAPI" target="_blank" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    <img src="assets/logos/GitHub.svg" alt="Logo de GitHub" class="">
+                </a>
+            </div>
         </div>
-        <div>
-            <h3>MatchesSCRAPER</h3>
-            <p>Creación de distintos bots que entraban a las páginas de algunas casas de apuestas y recopilaban la información pública de cada partido teniendo en cuenta la región (Casa de apuestas, Región, Categoría, Equipo 1, Equipo 2, Cuota 1, Cuota X, Cuota 2 y Fecha). Desarrollado con Vanilla Javascript, Puppeteer, Mongoose, gestión de variables de entorno mediante DotEnv y algunos tests unitarios de funciones con Jest.</p>
-            <a href="https://github.com/Saul-Ortega/MatchesSCRAPER" target="_blank">Repositorio</a>
+        <div class="bg-yellow-200/60 mt-5 w-3xl p-6 border-2 border-black rounded-2xl mx-auto">
+            <h3 class="bg-yellow-200 w-fit font-bold text-2xl rounded-2xl p-1 border-black border-2">MatchesSCRAPER</h3>
+            <p class="mt-3 bg-white w-fit p-2 border-black border-2 rounded-2xl">Desarrollo de bots que acceden a distintas casas de apuestas para recopilar información pública de los partidos (casa de apuestas, región, categoría, equipos, cuotas y fecha). Implementados con Vanilla JavaScript, Puppeteer, Mongoose, gestión de variables de entorno con DotEnv y pruebas unitarias de funciones con Jest.</p>
+            <video src="./assets/videos/sportium-video.mov" controls class="mt-3 bg-white w-fit p-2 border-black border-2 rounded-2xl mx-auto"></video>
+            <div class="mt-3 flex flex-row justify-evenly items-center p-2 bg-white w-fit h-20 border-black border-2 rounded-2xl mx-auto">
+                <a href="https://github.com/Saul-Ortega/MatchesSCRAPER" target="_blank" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    <img src="assets/logos/GitHub.svg" alt="Logo de GitHub" class="">
+                </a>
+            </div>
         </div>
-        <div>
-            <h3>MatchesWEB</h3>
-            <p>Creación de página web simple que consume la API desarrollada anteriormente y compara las cuotas de los partidos para saber qué casa de apuestas tiene la mejor cuota, luego calcula la rentabilidad que se tendría utilizando una técnica llamada arbitrage betting.</p>
-            <a href="https://github.com/Saul-Ortega/MatchesWEB" target="_blank">Repositorio</a>
+        <div class="bg-yellow-200/60 mt-5 w-3xl p-6 border-2 border-black rounded-2xl mx-auto">
+            <h3 class="bg-yellow-200 w-fit font-bold text-2xl rounded-2xl p-1 border-black border-2">MatchesWEB</h3>
+            <p class="mt-3 bg-white w-fit p-2 border-black border-2 rounded-2xl">Página web que consume la API previamente creada para comparar las cuotas de partidos entre distintas casas de apuestas, identificar la mejor opción y calcular la rentabilidad potencial mediante la técnica de arbitrage betting.</p>
+            <img src="./assets/images/MatchesWEB.png" alt="Captura de pantalla del proyecto MatchesWEB" class="mt-3 bg-white w-fit p-2 border-black border-2 rounded-2xl mx-auto">
+            <div class="mt-3 flex flex-row justify-evenly items-center p-2 bg-white w-fit h-20 border-black border-2 rounded-2xl mx-auto">
+                <a href="https://github.com/Saul-Ortega/MatchesWEB" target="_blank" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    <img src="assets/logos/GitHub.svg" alt="Logo de GitHub" class="">
+                </a>
+            </div>
         </div>
     </section>
     <section id="habilidades" class="w-7xl mt-15 mx-auto">
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Habilidades</h2>
-        <ul>
-            <li>
-                <img src="assets/logos/HTML5.svg" alt="Logo de HTML5">
-                <h3>HTML</h3>
+        <ul class="mt-5 bg-yellow-200/60 grid grid-cols-4 place-items-center gap-y-3 w-3xl p-5 border-black border-2 rounded-2xl mx-auto">
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/HTML5.svg" alt="Logo de HTML5" class="size-26">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">HTML</h3>
             </li>
-            <li>
-                <img src="assets/logos/CSS3.svg" alt="Logo de CSS3">
-                <h3>CSS</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/CSS3.svg" alt="Logo de CSS3" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">CSS</h3>
             </li>
-            <li>
-                <img src="assets/logos/JavaScript.svg" alt="Logo de JavaScript">
-                <h3>JavaScript</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/JavaScript.svg" alt="Logo de JavaScript" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">JavaScript</h3>
             </li>
-            <li>
-                <img src="assets/logos/Java.svg" alt="Logo de Java">
-                <h3>Java</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/Java.svg" alt="Logo de Java" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">Java</h3>
             </li>
-            <li>
-                <img src="assets/logos/Spring.svg" alt="Logo de Spring">
-                <h3>SpringBoot</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/Spring.svg" alt="Logo de Spring" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">SpringBoot</h3>
             </li>
-            <li>
-                <img src="assets/logos/MySQL.svg" alt="Logo de MySql">
-                <h3>MySql</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/MySQL.svg" alt="Logo de MySql" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">MySql</h3>
             </li>
-            <li>
-                <img src="assets/logos/MongoDB.svg" alt="Logo de MongoDB">
-                <h3>MongoDB</h3>
+            <li class="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
+                <img src="assets/logos/MongoDB.svg" alt="Logo de MongoDB" class="size-28">
+                <h3 class="mt-1 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700 text-sm font-bold">MongoDB</h3>
             </li>
         </ul>
     </section>
     <section id="titulacion" class="w-7xl mt-15 mx-auto">
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Titulación</h2>
-        <div>
-            <h3>CFGS Desarrollo de Aplicaciones Multiplataforma</h3>
-            <time datetime="2024-09">Septiembre 2024</time> - <time datetime="2026-06">Junio 2026</time>
-        </div>
-        <div>
-            <h3>CFGS Administración y Finanzas</h3>
-            <time datetime="2022-09">Septiembre 2022</time> - <time datetime="2024-06">Junio 2024</time>
-        </div>
-        <div>
-            <h3>CFGM Gestión Administrativa</h3>
-            <time datetime="2020-09">Septiembre 2020</time> - <time datetime="2022-06">Junio 2022</time>
-        </div>
+        <ul class="mt-5 w-3xl mx-auto relative border-l-black border-l-4">
+            <li class="">
+                <div class="bg-yellow-200 border-2 border-black absolute size-5 rounded-full -ml-3 mt-14.5 mb-14.5"></div>
+                <div class="ml-20 bg-yellow-200/60 w-1/1.5 p-6 border-black border-2 rounded-2xl">
+                    <h3 class="bg-yellow-200 w-fit font-bold rounded-2xl p-1 border-black border-2">Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma</h3>
+                    <div class="mt-3 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">
+                        <time datetime="2024-09">Septiembre 2024</time> - <time datetime="2026-06">Junio 2026</time>
+                    </div>
+                </div>
+            </li>
+            <li class="mt-5">
+                <div class="bg-yellow-200 border-2 border-black absolute size-5 rounded-full -ml-3 mt-14.5 mb-14.5"></div>
+                <div class="ml-20 bg-yellow-200/60 w-1/1.5 p-6 border-black border-2 rounded-2xl">
+                    <h3 class="bg-yellow-200 w-fit font-bold rounded-2xl p-1 border-black border-2">Ciclo Formativo de Grado Superior en Administración y Finanzas</h3>
+                    <div class="mt-3 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">
+                        <time datetime="2022-09">Septiembre 2022</time> - <time datetime="2024-06">Junio 2024</time>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </section>
     <section id="cursos" class="w-7xl mt-15 mx-auto">
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Cursos y Certificaciones</h2>
-        <div>
-            <h3>ReactiveX - RxJs: De cero hasta los detalles</h3>
-            <div>9 horas</div>
-            <div>Curso de RxJs</div>
-            <button type="button">PDF</button>
-            <a href="https://cursos.devtalles.com/certificates/yfwdcmrqmn" target="_blank">Link</a>
-        </div>
-        <div>
-            <h3>JavaScript Algorithms and Data Structures</h3>
-            <div>300 horas</div>
-            <div>Curso de JS</div>
-            <button type="button">PDF</button>
-            <a href="https://www.freecodecamp.org/certification/SaulOrtega/javascript-algorithms-and-data-structures-v8" target="_blank">Link</a>
-        </div>
-        <div>
-            <h3>Responsive Web Design</h3>
-            <div>300 horas</div>
-            <div>Curso de HTML y CSS</div>
-            <a href="assets/courses/Curso RxJs.pdf" download>PDF</a>
-            <a href="https://www.freecodecamp.org/certification/SaulOrtega/responsive-web-design" target="_blank">Link</a>
+        <div class="grid grid-cols-3 gap-x-3 w-3xl mx-auto">
+            <div class="bg-yellow-200/60 mt-5 w-full p-6 border-2 border-black rounded-2xl flex flex-col justify-center items-center">
+                <h3 class="bg-yellow-200 text-lg w-fit font-bold rounded-2xl p-1 border-black border-2">ReactiveX - RxJs: De cero hasta los detalles</h3>
+                <div class="mt-3 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">(9 horas)</div>
+                <div class="mt-3 bg-white w-fit p-1 rounded-2xl border-2 border-black">
+                    <img src="assets/logos/Rxjs.svg" alt="" class="size-12">
+                </div>
+                <div class="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
+                    <a href="assets/courses/Curso RxJs.pdf" download>
+                        <img src="assets/download-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                    <a href="https://cursos.devtalles.com/certificates/yfwdcmrqmn" target="_blank">
+                        <img src="assets/link-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                </div>
+            </div>
+            <div class="bg-yellow-200/60 mt-5 w-full p-6 border-2 border-black rounded-2xl flex flex-col justify-center items-center">
+                <h3 class="bg-yellow-200 w-fit font-bold rounded-2xl p-1 border-black border-2">JavaScript Algorithms and Data Structures</h3>
+                <div class="mt-3 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">(300 horas)</div>
+                <div class="mt-3 bg-white w-fit p-1 rounded-2xl border-2 border-black">
+                    <img src="assets/logos/JavaScript.svg" alt="" class="size-12">
+                </div>
+                <div class="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
+                    <a href="assets/courses/Curso RxJs.pdf" download>
+                        <img src="assets/download-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/SaulOrtega/javascript-algorithms-and-data-structures-v8" target="_blank">
+                        <img src="assets/link-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                </div>
+            </div>
+            <div class="bg-yellow-200/60 mt-5 w-full p-6 border-2 border-black rounded-2xl flex flex-col justify-center items-center">
+                <h3 class="bg-yellow-200 w-fit font-bold rounded-2xl p-1 border-black border-2">Responsive Web Design</h3>
+                <div class="mt-10 bg-violet-200 w-fit p-1 rounded-2xl border-1 border-violet-700">(300 horas)</div>
+                <div class="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
+                    <img src="assets/logos/HTML5.svg" alt="" class="size-12">
+                    <img src="assets/logos/CSS3.svg" alt="" class="size-12">
+                </div>
+                <div class="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
+                    <a href="assets/courses/Curso RxJs.pdf" download>
+                        <img src="assets/download-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                    <a href="https://www.freecodecamp.org/certification/SaulOrtega/responsive-web-design" target="_blank">
+                        <img src="assets/link-icon.svg" alt="" class="size-6 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
-    <footer id="contacto" class="w-7xl mt-15 mx-auto">
+    <footer id="contacto" class="w-7xl mt-15 mb-15 mx-auto">
         <h2 class="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl">Contacto</h2>
+        <div class="bg-yellow-200/60 w-3xl p-6 border-black border-2 rounded-2xl mx-auto mt-5">
+            <div class="bg-white p-2 border-black border-2 rounded-2xl">
+                <h3 class="text-xl text-center">Puedes contactarme a través de los siguientes medios</h3>
+                <div class="flex flex-row mt-3 justify-center items-center gap-x-5">
+                    <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank">
+                        <img src="assets/logos/LinkedIn.svg" alt="" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                    <a href="https://github.com/Saul-Ortega" target="_blank">
+                        <img src="assets/logos/GitHub.svg" alt="" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                    <a href="mailto:saulalbertoortegarodriguez@gmail.com" target="_blank">
+                        <img src="assets/mail-icon.svg" alt="" class="size-14 hover:scale-125 duration-300 ease-in-out">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
