@@ -12,7 +12,7 @@ function Header() {
     <>
         <header className="bg-violet-600/60 border-black border-2 backdrop-blur-xs sticky top-1.5 md:w-4xl md:h-16 mx-auto rounded-2xl flex items-center z-999 sm:w-xl sm:h-24">
             <nav className="w-full">
-                <div className="md:hidden sm:w-full sm:flex sm:flex-row sm:justify-end">
+                <div className="hidden sm:w-full sm:flex sm:flex-row sm:justify-end">
                     <button className="mr-15 hover:bg-violet-600/60 hover:rounded-2xl sm:cursor-pointer" onClick={toggleMenu}>
                         <MenuIcon open={open} />
                     </button>
