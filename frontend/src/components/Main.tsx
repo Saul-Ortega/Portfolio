@@ -1,12 +1,12 @@
-function Home() {
+function Main() {
     
     return(
         <>
-            <main id="inicio" className="scroll-mt-18 bg-[url(public/home-background.svg)] rounded-3xl w-7xl h-130 mt-10 mx-auto flex flex-col justify-center items-center sm:w-full sm:h-full sm:py-8">
-                <div className="bg-[#fdf6bf] w-4xl h-90 p-5 border-black border-2 grid grid-cols-3 rounded-2xl items-center sm:w-lg sm:h-full sm:grid-cols-1 sm:[grid-template-areas:'a''b']">
-                    <div className="col-span-2 flex flex-col justify-center items-center sm:[grid-area:b]">
-                        <h3 className="bg-yellow-200 w-fit font-bold text-4xl rounded-2xl p-1 border-black border-2 sm:mt-4 sm:p-2">Hola, soy Saúl</h3>
-                        <div className="bg-white mt-4 border-2 border-black rounded-2xl p-2 mr-4 w-lg sm:w-md sm:p-3">
+            <main id="inicio" className="scroll-mt-18 sm:scroll-mt-28 bg-[url(public/home-background.svg)] rounded-3xl md:w-7xl md:h-130 mt-10 mx-auto flex flex-col justify-center items-center sm:w-full sm:h-full sm:py-8">
+                <div className="bg-[#fdf6bf] md:w-4xl md:h-90 p-5 border-black border-2 grid md:grid-cols-3 rounded-2xl items-center sm:w-lg sm:h-full sm:grid-cols-1 sm:[grid-template-areas:'a''b'] md:[grid-template-areas:'a_a_b']">
+                    <div className="flex flex-col justify-center items-center sm:[grid-area:b] md:[grid-area:a]">
+                        <h3 className="bg-yellow-200 w-fit font-bold text-4xl rounded-2xl md:p-1 border-black border-2 sm:mt-4 sm:p-2">Hola, soy Saúl</h3>
+                        <div className="bg-white mt-4 border-2 border-black rounded-2xl md:p-2 mr-4 md:w-lg sm:w-md sm:p-3">
                             <p>
                                 Disfruto del desarrollo de software porque convierte las <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">ideas</em> en <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">soluciones reales</em>.
                             </p>
@@ -20,7 +20,7 @@ function Home() {
                             </a>
                         </div>
                     </div>
-                    <div className="bg-white border-black border-2 size-70 rounded-2xl mx-auto flex flex-col justify-center items-center sm:[grid-area:a]">
+                    <div className="bg-white border-black border-2 p-7 rounded-2xl mx-auto flex flex-col justify-center items-center sm:[grid-area:a] md:[grid-area:b]">
                         <img src="public/perfil.webp" alt="Foto de perfil" className="w-45 rounded-2xl" />
                     </div>
                 </div>
@@ -29,4 +29,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Main
