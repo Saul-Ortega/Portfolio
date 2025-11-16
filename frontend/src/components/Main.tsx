@@ -2,7 +2,7 @@ function Main() {
     
     return(
         <>
-            <main id="inicio" className="scroll-mt-18 sm:scroll-mt-28 bg-[url(public/home-background.svg)] rounded-3xl md:w-7xl md:h-130 mt-10 mx-auto flex flex-col justify-center items-center sm:w-full sm:h-full sm:py-8">
+            <main id="inicio" className="scroll-mt-18 sm:scroll-mt-28 bg-[url(home-background.svg)] rounded-3xl md:w-7xl md:h-130 mt-10 mx-auto flex flex-col justify-center items-center sm:w-full sm:h-full sm:py-8">
                 <div className="bg-[#fdf6bf] md:w-4xl md:h-90 p-5 border-black border-2 grid md:grid-cols-3 rounded-2xl items-center sm:w-lg sm:h-full sm:grid-cols-1 sm:[grid-template-areas:'a''b'] md:[grid-template-areas:'a_a_b']">
                     <div className="flex flex-col justify-center items-center sm:[grid-area:b] md:[grid-area:a]">
                         <h3 className="bg-yellow-200 w-fit font-bold text-4xl rounded-2xl md:p-1 border-black border-2 sm:mt-4 sm:p-2">Hola, soy Saúl</h3>
@@ -13,15 +13,15 @@ function Main() {
                         </div>
                         <div className="bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mt-4">
                             <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank" className="size-14 hover:scale-125 duration-300 ease-in-out">
-                                <img src="public/logos/LinkedIn.svg" alt="Logo de Linkedin" />
+                                <img src="logos/LinkedIn.svg" alt="Logo de Linkedin" />
                             </a>
                             <a href="https://github.com/Saul-Ortega" target="_blank" className="size-14 hover:scale-125 duration-300 ease-in-out">
-                                <img src="public/logos/GitHub.svg" alt="Logo de Github" />
+                                <img src="logos/GitHub.svg" alt="Logo de Github" />
                             </a>
                         </div>
                     </div>
                     <div className="bg-white border-black border-2 p-7 rounded-2xl mx-auto flex flex-col justify-center items-center sm:[grid-area:a] md:[grid-area:b]">
-                        <img src="public/perfil.webp" alt="Foto de perfil" className="w-45 rounded-2xl" />
+                        <img src="perfil.webp" alt="Foto de perfil" className="w-45 rounded-2xl" />
                     </div>
                 </div>
             </main>

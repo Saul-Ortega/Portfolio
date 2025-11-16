@@ -9,13 +9,13 @@ function Footer() {
                         <h3 className="md:text-xl text-center sm:text-2xl">Puedes contactarme a través de los siguientes medios</h3>
                         <div className="flex flex-row mt-3 justify-center items-center gap-x-5">
                             <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank">
-                                <img src="public/logos/LinkedIn.svg" alt="Logo de Linkedin" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="logos/LinkedIn.svg" alt="Logo de Linkedin" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="https://github.com/Saul-Ortega" target="_blank">
-                                <img src="public/logos/GitHub.svg" alt="Logo de Github" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="logos/GitHub.svg" alt="Logo de Github" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="mailto:saulalbertoortegarodriguez@gmail.com" target="_blank">
-                                <img src="public/mail-icon.svg" alt="Icono de correo electrónico" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="icons/mail-icon.svg" alt="Icono de correo electrónico" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>

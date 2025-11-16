@@ -8,14 +8,14 @@ function Courses() {
                         <h3 className="bg-yellow-200 w-fit font-bold rounded-2xl md:p-1 border-black border-2 sm:p-2">ReactiveX - RxJs: De cero hasta los detalles</h3>
                         <div className="mt-3 bg-violet-200 w-fit md:p-1 rounded-2xl border border-violet-700 sm:p-2">(9 horas)</div>
                         <div className="mt-3 bg-white w-fit p-1 rounded-2xl border-2 border-black">
-                            <img src="public/logos/Rxjs.svg" alt="Logo de RxJs" className="size-16" />
+                            <img src="logos/Rxjs.svg" alt="Logo de RxJs" className="size-16" />
                         </div>
                         <div className="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
-                            <a href="public/courses/Curso RxJs.pdf" download>
-                                <img src="public/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                            <a href="courses/Curso RxJs.pdf" download>
+                                <img src="icons/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="https://cursos.devtalles.com/certificates/yfwdcmrqmn" target="_blank">
-                                <img src="public/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="icons/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>
@@ -23,14 +23,14 @@ function Courses() {
                         <h3 className="bg-yellow-200 w-fit font-bold rounded-2xl md:p-1 border-black border-2 sm:p-2">JavaScript Algorithms and Data Structures</h3>
                         <div className="mt-3 bg-violet-200 w-fit md:p-1 rounded-2xl border border-violet-700 sm:p-2">(300 horas)</div>
                         <div className="mt-3 bg-white w-fit p-1 rounded-2xl border-2 border-black">
-                            <img src="public/logos/JavaScript.svg" alt="Logo de JavaScript" className="size-16" />
+                            <img src="logos/JavaScript.svg" alt="Logo de JavaScript" className="size-16" />
                         </div>
                         <div className="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
-                            <a href="public/courses/Curso JavaScript.pdf" download>
-                                <img src="public/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                            <a href="courses/Curso JavaScript.pdf" download>
+                                <img src="icons/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="https://www.freecodecamp.org/certification/saulortega/javascript-algorithms-and-data-structures-v8" target="_blank">
-                                <img src="public/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="icons/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>
@@ -38,15 +38,15 @@ function Courses() {
                         <h3 className="bg-yellow-200 w-fit font-bold rounded-2xl md:p-1 border-black border-2 sm:p-2">Responsive Web Design</h3>
                         <div className="md:mt-10 bg-violet-200 w-fit md:p-1 rounded-2xl border border-violet-700 sm:p-2 sm:mt-3">(300 horas)</div>
                         <div className="mt-3 bg-white w-fit p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
-                            <img src="public/logos/HTML5.svg" alt="Logo de HTML5" className="size-16" />
-                            <img src="public/logos/CSS3.svg" alt="Logo de CSS3" className="size-16" />
+                            <img src="logos/HTML5.svg" alt="Logo de HTML5" className="size-16" />
+                            <img src="logos/CSS3.svg" alt="Logo de CSS3" className="size-16" />
                         </div>
                         <div className="mt-3 bg-white w-30 p-1 rounded-2xl border-2 border-black flex flex-row justify-evenly">
-                            <a href="public/courses/Curso HTML y CSS.pdf" download>
-                                <img src="public/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                            <a href="courses/Curso HTML y CSS.pdf" download>
+                                <img src="icons/download-icon.svg" alt="Icono de descarga" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="https://www.freecodecamp.org/certification/saulortega/responsive-web-design" target="_blank">
-                                <img src="public/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
+                                <img src="icons/link-icon.svg" alt="Icono de enlace" className="size-10 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>
