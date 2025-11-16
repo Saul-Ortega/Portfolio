@@ -5,6 +5,7 @@ import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Training from '../components/Training';
 import Courses from '../components/Courses';
+import FloatingButton from '../components/FloatingButton';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
                 <Skills />
                 <Training />
                 <Courses />
+                <FloatingButton />
             <Footer />
         </>
     )
