@@ -18,11 +18,10 @@ function Header() {
                     </button>
                     {
                     open &&
-                    <div className="hidden sm:bg-[#fdf6bf] sm:flex sm:justify-center sm:text-7xl sm:text-center sm:leading-25 sm:fixed sm:w-full sm:h-screen sm:mt-20 sm:border-black sm:border-2 sm:rounded-2xl sm:backdrop-blur-2xl sm:z-999">
+                    <div className="hidden sm:bg-[#fdf6bf] sm:flex sm:justify-center sm:text-7xl sm:text-center sm:leading-30 sm:fixed sm:w-full sm:h-screen sm:mt-20 sm:border-black sm:border-2 sm:rounded-2xl sm:backdrop-blur-2xl sm:z-999">
                         <ul className="sm:mt-2">
                             <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#inicio" className="py-1 px-2">Inicio</a></li>
                             <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#experiencia" className="py-1 px-2">Experiencia</a></li>
-                            <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#proyectos" className="py-1 px-2">Proyectos</a></li>
                             <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#habilidades" className="py-1 px-2">Habilidades</a></li>
                             <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#titulacion" className="py-1 px-2">Titulación</a></li>
                             <li className="hover:bg-[#AC7FF9] rounded-full" onClick={toggleMenu}><a href="#cursos" className="py-1 px-2">Cursos</a></li>
@@ -34,7 +33,6 @@ function Header() {
                 <ul className="md:flex md:flex-row md:justify-evenly text-lg sm:hidden">
                     <li className="hover:bg-violet-600/60 rounded-full"><a href="#inicio" className="py-1 px-2">Inicio</a></li>
                     <li className="hover:bg-violet-600/60 rounded-full"><a href="#experiencia" className="py-1 px-2">Experiencia</a></li>
-                    <li className="hover:bg-violet-600/60 rounded-full"><a href="#proyectos" className="py-1 px-2">Proyectos</a></li>
                     <li className="hover:bg-violet-600/60 rounded-full"><a href="#habilidades" className="py-1 px-2">Habilidades</a></li>
                     <li className="hover:bg-violet-600/60 rounded-full"><a href="#titulacion" className="py-1 px-2">Titulación</a></li>
                     <li className="hover:bg-violet-600/60 rounded-full"><a href="#cursos" className="py-1 px-2">Cursos</a></li>
