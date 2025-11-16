@@ -2,9 +2,9 @@ function Footer() {
 
     return(
         <>
-            <footer id="contacto" className="scroll-mt-18 xs:scroll-mt-20 sm:scroll-mt-28 xl:w-7xl mt-15 mb-15 mx-auto sm:w-full xs:w-md">
+            <footer id="contacto" className="scroll-mt-18 xs:scroll-mt-20 sm:scroll-mt-28 xl:w-7xl mt-15 mb-15 mx-auto sm:w-full 2xs:w-md xs:w-80">
                 <h2 className="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl xs:mx-auto">Contacto</h2>
-                <div className="bg-yellow-200/60 lg:w-3xl p-6 border-black border-2 rounded-2xl mx-auto mt-5 sm:w-xl xs:w-md">
+                <div className="bg-yellow-200/60 lg:w-3xl p-6 border-black border-2 rounded-2xl mx-auto mt-5 sm:w-xl 2xs:w-md xs:w-80">
                     <div className="bg-white p-2 border-black border-2 rounded-2xl">
                         <h3 className="lg:text-xl text-center sm:text-2xl">Puedes contactarme a través de los siguientes medios</h3>
                         <div className="flex flex-row mt-3 justify-center items-center gap-x-5">

@@ -1,9 +1,9 @@
 function Courses() {
     return (
         <>
-            <section id="cursos" className="scroll-mt-18 xs:scroll-mt-20 sm:scroll-mt-28 xl:w-7xl mt-15 mx-auto sm:w-full xs:w-md">
-                <h2 className="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl xs:mx-auto">Cursos y Certificaciones</h2>
-                <div className="grid lg:grid-cols-3 gap-x-3 lg:w-3xl mx-auto sm:w-xl xs:grid-cols-1">
+            <section id="cursos" className="scroll-mt-18 xs:scroll-mt-20 sm:scroll-mt-28 xl:w-7xl mt-15 mx-auto sm:w-full 2xs:w-md xs:w-80">
+                <h2 className="bg-violet-600/60 border-black border-2 2xs:w-fit p-2 text-4xl text-center rounded-2xl xs:mx-auto xs:w-70">Cursos y Certificaciones</h2>
+                <div className="grid lg:grid-cols-3 gap-x-3 lg:w-3xl mx-auto sm:w-xl 2xs:grid-cols-1">
                     <div className="bg-yellow-200/60 mt-5 lg:w-full p-6 border-2 border-black rounded-2xl flex flex-col justify-center items-center sm:w-md sm:mx-auto">
                         <h3 className="bg-yellow-200 w-fit font-bold rounded-2xl lg:p-1 border-black border-2 xs:p-2">ReactiveX - RxJs: De cero hasta los detalles</h3>
                         <div className="mt-3 bg-violet-200 w-fit lg:p-1 rounded-2xl border border-violet-700 xs:p-2">(9 horas)</div>

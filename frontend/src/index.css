@@ -3,5 +3,6 @@
 
 @theme {
     --funnel-font: "Funnel Sans", sans-serif;
-    --breakpoint-xs: 30rem;
+    --breakpoint-xs: 20.5rem;
+    --breakpoint-2xs: 30rem;
 }
