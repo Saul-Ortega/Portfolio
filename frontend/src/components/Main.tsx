@@ -12,16 +12,16 @@ function Main() {
                             </p>
                         </div>
                         <div className="bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mt-4">
-                            <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank" className="size-14 hover:scale-125 duration-300 ease-in-out">
-                                <img src="logos/LinkedIn.svg" alt="Logo de Linkedin" />
+                            <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank">
+                                <img src="logos/LinkedIn.svg" alt="Logo de Linkedin" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
-                            <a href="https://github.com/Saul-Ortega" target="_blank" className="size-14 hover:scale-125 duration-300 ease-in-out">
-                                <img src="logos/GitHub.svg" alt="Logo de Github" />
+                            <a href="https://github.com/Saul-Ortega" target="_blank">
+                                <img src="logos/GitHub.svg" alt="Logo de Github" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>
                     <div className="bg-white border-black border-2 p-7 rounded-2xl mx-auto flex flex-col justify-center items-center xs:[grid-area:a] lg:[grid-area:b]">
-                        <img src="perfil.webp" alt="Foto de perfil" className="w-45 rounded-2xl" />
+                        <img src="perfil.webp" alt="Foto de perfil" className="w-45 h-fit rounded-2xl" />
                     </div>
                 </div>
             </main>
