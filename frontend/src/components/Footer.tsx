@@ -17,6 +17,9 @@ function Footer() {
                             <a href="mailto:saulalbertoortegarodriguez@gmail.com" target="_blank">
                                 <img src="icons/mail-icon.svg" alt="Icono de correo electrónico" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
+                            <a href="SAÚL ALBERTO ORTEGA RODRÍGUEZ - CV.pdf" download>
+                                <img src="icons/cv-icon.svg" alt="Icono de Currículum Vitae" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                            </a>
                         </div>
                     </div>
                 </div>
