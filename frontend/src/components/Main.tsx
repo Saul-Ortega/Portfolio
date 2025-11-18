@@ -11,12 +11,18 @@ function Main() {
                                 Disfruto del desarrollo de software porque convierte las <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">ideas</em> en <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">soluciones reales</em>.
                             </p>
                         </div>
-                        <div className="bg-white w-60 h-20 flex flex-row justify-evenly items-center border-black border-2 rounded-2xl mt-4">
+                        <div className="bg-white w-fit h-20 flex flex-row justify-evenly items-center gap-x-5 p-2 border-black border-2 rounded-2xl mt-4">
                             <a href="https://www.linkedin.com/in/saul-alberto-ortega-rodriguez-1032b0232/" target="_blank">
                                 <img src="logos/LinkedIn.svg" alt="Logo de Linkedin" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                             <a href="https://github.com/Saul-Ortega" target="_blank">
                                 <img src="logos/GitHub.svg" alt="Logo de Github" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                            </a>
+                            <a href="mailto:saulalbertoortegarodriguez@gmail.com" target="_blank">
+                                <img src="icons/mail-icon.svg" alt="Icono de correo electrónico" className="size-14 hover:scale-125 duration-300 ease-in-out" />
+                            </a>
+                            <a href="SAÚL ALBERTO ORTEGA RODRÍGUEZ - CV.pdf" download>
+                                <img src="icons/cv-icon.svg" alt="Icono de Currículum Vitae" className="size-14 hover:scale-125 duration-300 ease-in-out" />
                             </a>
                         </div>
                     </div>
