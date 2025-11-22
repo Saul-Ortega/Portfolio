@@ -6,10 +6,6 @@ function Skills() {
                 <h2 className="bg-violet-600/60 border-black border-2 w-fit p-2 text-4xl text-center rounded-2xl xs:mx-auto">Habilidades</h2>
                 <ul className="mt-5 bg-yellow-200/60 grid lg:grid-cols-4 place-items-center gap-y-3 lg:w-3xl p-5 border-black border-2 rounded-2xl mx-auto sm:w-xl sm:grid-cols-3 xs:grid-cols-2 2xs:w-md xs:w-80">
                     <li className="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
-                        <img src="logos/JavaScript.svg" alt="Logo de JavaScript" className="size-28" />
-                        <h3 className="mt-1 bg-violet-200 w-fit lg:p-1 rounded-2xl border border-violet-700 text-sm font-bold xs:p-2">JavaScript</h3>
-                    </li>
-                    <li className="flex flex-col items-center p-2 bg-white border-2 border-black rounded-2xl w-10/12 h-fit">
                         <img src="logos/React.svg" alt="Logo de React" className="size-28" />
                         <h3 className="mt-1 bg-violet-200 w-fit lg:p-1 rounded-2xl border border-violet-700 text-sm font-bold xs:p-2">React</h3>
                     </li>
