@@ -6,34 +6,42 @@ function Skills() {
         {
             src: "logos/React.svg",
             alt: "Logo de React",
+            name: "React",
         },
         {
             src: "logos/TailwindCSS.svg",
             alt: "Logo de Tailwind CSS",
+            name: "Tailwind",
         },
         {
             src: "logos/Java.svg",
             alt: "Logo de Java",
+            name: "Java",
         },
         {
             src: "logos/Kotlin.svg",
             alt: "Logo de Kotlin",
+            name: "Kotlin",
         },
         {
             src: "logos/MySQL.svg",
             alt: "Logo de MySql",
+            name: "MySql",
         },
         {
             src: "logos/MongoDB.svg",
             alt: "Logo de MongoDB",
+            name: "MongoDB",
         },
         {
             src: "logos/Puppeteer.svg",
             alt: "Logo de Puppeteer",
+            name: "Puppeteer",
         },
         {
             src: "logos/Rxjs.svg",
-            alt: "Logo de Rxjs",
+            alt: "Logo de RxJs",
+            name: "RxJs",
         },
     ]
 
@@ -44,7 +52,7 @@ function Skills() {
                 <ul className="mt-5 bg-yellow-200/60 grid lg:grid-cols-4 place-items-center gap-y-3 lg:w-3xl p-5 border-black border-2 rounded-2xl mx-auto sm:w-xl sm:grid-cols-3 xs:grid-cols-2 2xs:w-md xs:w-80">
                     {
                         skills.map( skill => (
-                            <SkillCard key={skill.src} src={skill.src} alt={skill.alt} />
+                            <SkillCard key={skill.src} src={skill.src} alt={skill.alt} name={skill.name} />
                         ))
                     }
                 </ul>
