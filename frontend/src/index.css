@@ -5,4 +5,5 @@
     --funnel-font: "Funnel Sans", sans-serif;
     --breakpoint-xs: 20.5rem;
     --breakpoint-2xs: 30rem;
+    --ease-cubicbezier: cubic-bezier(0, 0, 0, 1); 
 }
