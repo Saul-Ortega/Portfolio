@@ -26,8 +26,8 @@ function Main() {
                             </a>
                         </div>
                     </div>
-                    <div className="bg-white border-black border-2 p-7 rounded-2xl mx-auto flex flex-col justify-center items-center xs:[grid-area:a] lg:[grid-area:b]">
-                        <img src="perfil.webp" alt="Foto de perfil" className="w-45 h-fit rounded-2xl" fetchPriority="high" />
+                    <div className="bg-white border-black border-2 p-7 rounded-2xl mx-auto flex flex-col justify-center items-center xs:[grid-area:a] lg:[grid-area:b] h-72">
+                        <img src="perfil.webp" alt="Foto de perfil" height={240} className="w-45 rounded-2xl" fetchPriority="high" />
                     </div>
                 </div>
             </main>
