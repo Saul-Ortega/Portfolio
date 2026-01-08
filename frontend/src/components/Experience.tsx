@@ -10,7 +10,7 @@ function Experience() {
                         <div className="lg:ml-20 bg-yellow-200/60 w-fit p-6 border-black border-2 rounded-2xl sm:ml-10 xs:ml-5">
                             <h3 className="bg-yellow-200 w-fit font-bold text-2xl rounded-2xl lg:p-1 border-black border-2 xs:p-2">Inerza, S.A</h3>
                             <div className="mt-3 w-fit bg-white border-2 border-black rounded-2xl lg:p-2 xs:p-3">
-                                <div className="bg-violet-200 w-fit lg:p-1 rounded-2xl border border-violet-700 xs:p-2">
+                                <div className="bg-violet-200 w-fit lg:p-1 rounded-2xl border border-violet-700 xs:p-2 selection:bg-violet-400">
                                     <time dateTime="2025-05-12">Mayo 2025</time> - <time dateTime="2025-06-13">Junio 2025</time>
                                 </div>
                                 <div className="lg:mt-1 2xs:mt-2">Las Palmas de Gran Canaria</div>

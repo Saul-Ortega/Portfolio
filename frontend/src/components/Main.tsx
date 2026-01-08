@@ -8,7 +8,7 @@ function Main() {
                         <h3 className="bg-yellow-200 w-fit font-bold text-4xl rounded-2xl lg:p-1 border-black border-2 xs:mt-4 xs:p-2">Hola, soy Saúl</h3>
                         <div className="bg-white mt-4 border-2 border-black rounded-2xl lg:p-2 mr-4 lg:w-lg 2xs:w-sm xs:p-3 xs:mx-auto">
                             <p>
-                                Disfruto del desarrollo de software porque convierte las <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">ideas</em> en <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700">soluciones reales</em>.
+                                Disfruto del desarrollo de software porque convierte las <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700 selection:bg-violet-400">ideas</em> en <em className="bg-violet-200 p-1 rounded-2xl border border-violet-700 selection:bg-violet-400">soluciones reales</em>.
                             </p>
                         </div>
                         <div className="bg-white w-fit h-20 flex flex-row justify-evenly items-center gap-x-5 p-2 border-black border-2 rounded-2xl mt-4">
